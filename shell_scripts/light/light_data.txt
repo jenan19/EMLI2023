@@ -112,3 +112,30 @@
 83
 /home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
+/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
+83
+/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
+83
+/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
+83
+/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
+83
+/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
+84
+/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
+84
+/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
+83
+/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
+83
+83
+84
+83
+84
+84
+84
+84
+84
+84
+83
+84

@@ -1,0 +1,27 @@
+/home/pi/shell_scripts/pump/get_pump.sh: 1: ros2: not found
+/home/pi/shell_scripts/pump/get_pump.sh: 3: [: =: unexpected operator
+
+/home/pi/shell_scripts/pump/get_pump.sh: 1: ros2: not found
+/home/pi/shell_scripts/pump/get_pump.sh: 3: [: =: unexpected operator
+
+/home/pi/shell_scripts/pump/get_pump.sh: 1: ros2: not found
+/home/pi/shell_scripts/pump/get_pump.sh: 3: [: =: unexpected operator
+
+/home/pi/shell_scripts/pump/get_pump.sh: 1: ros2: not found
+/home/pi/shell_scripts/pump/get_pump.sh: 3: [: =: unexpected operator
+
+/home/pi/shell_scripts/pump/get_pump.sh: 1: ros2: not found
+/home/pi/shell_scripts/pump/get_pump.sh: 3: [: ==: unexpected operator
+
+/home/pi/shell_scripts/pump/get_pump.sh: 1: ros2: not found
+/home/pi/shell_scripts/pump/get_pump.sh: 3: [: ==: unexpected operator
+
+/home/pi/shell_scripts/pump/get_pump.sh: 1: ros2: not found
+/home/pi/shell_scripts/pump/get_pump.sh: 3: [: ==: unexpected operator
+
+/home/pi/shell_scripts/pump/get_pump.sh: 1: ros2: not found
+/home/pi/shell_scripts/pump/get_pump.sh: 3: [: unexpected operator
+
+/home/pi/shell_scripts/pump/get_pump.sh: 1: ros2: not found
+/home/pi/shell_scripts/pump/get_pump.sh: 3: [: unexpected operator
+

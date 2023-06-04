@@ -108,3 +108,30 @@ Could not determine the type for the passed topic
 1
 /home/pi/shell_scripts/soil/get_soils.sh: line 5: [: too many arguments
 1
+/home/pi/shell_scripts/soil/get_soils.sh: line 5: [: too many arguments
+1
+/home/pi/shell_scripts/soil/get_soils.sh: line 5: [: too many arguments
+1
+/home/pi/shell_scripts/soil/get_soils.sh: line 5: [: too many arguments
+1
+/home/pi/shell_scripts/soil/get_soils.sh: line 5: [: too many arguments
+1
+/home/pi/shell_scripts/soil/get_soils.sh: line 5: [: too many arguments
+1
+/home/pi/shell_scripts/soil/get_soils.sh: line 5: [: too many arguments
+1
+/home/pi/shell_scripts/soil/get_soils.sh: line 5: [: too many arguments
+1
+/home/pi/shell_scripts/soil/get_soils.sh: line 5: [: too many arguments
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0
