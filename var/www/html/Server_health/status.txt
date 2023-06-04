@@ -1,0 +1,3 @@
+CPU Temp: 57 degrees
+Memory usage: 78%
+Uptime: 2 hours
