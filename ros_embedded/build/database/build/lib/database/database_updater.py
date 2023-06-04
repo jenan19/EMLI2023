@@ -51,7 +51,7 @@ def main(args=None):
         name = 'plant'
     moisture_subscriber = MinimalSubscriber(name + '/moisture')
     light_subscriber = MinimalSubscriber(name + '/light')
-    pump_subscriber = MinimalSubscriber(name + '/pump')
+    pump_subscriber = MinimalSubscriber(name + '/pump_cycles')
     pump_alarm_subscriber = MinimalSubscriber(name + '/pump_alarm')
     water_alarm_subscriber = MinimalSubscriber(name + '/water_alarm')
     moisture_logger = LogData("/var/www/html/Soil_moisture/log.txt")
@@ -80,7 +80,7 @@ def main(args=None):
         # print(pump_alarm_subscriber.get_value())
         # print(water_alarm_subscriber.get_value())
         
-        sleep(30)
+        sleep(5)
     moisture_subscriber.destroy_node()
     rclpy.shutdown()
 if __name__ == '__main__':

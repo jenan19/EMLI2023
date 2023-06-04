@@ -69,11 +69,13 @@ def main(args=None):
     
     pump_alarm_pub = node.create_publisher(String, name +'/pump_alarm', 10)
     
+    pump_cycles = node.create_publisher(String, name +'/pump_cycles', 10)
+
     water_alarm_pub = node.create_publisher(String, name +'/water_alarm', 10)
 
     moist = String()
     light = String()
-
+    cycles = String()
     pump_alarm = String()
     water_alarm = String()
 
@@ -81,6 +83,7 @@ def main(args=None):
     
     pump_monitor = PumpSubscriber()
 
+    pumps = 0
 
     while rclpy.ok():
         try: 
@@ -106,8 +109,10 @@ def main(args=None):
         print(pump_alarm)
         if pump_alarm.data == '0'  and water_alarm.data == '0' and pump_monitor.pump == "on":
             serial_com.send(text = "on")
-        
-        
+            pumps += 1
+        cycles.data = str(pumps)
+        pump_cycles.publish(cycles)
+
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)

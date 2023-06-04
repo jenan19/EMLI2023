@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-filename="/var/www/html/water_alarms/log1.txt"
+filename="/var/www/html/water_alarms/log2.txt"
 
 line1=$(head -n 1 "$filename")
 second_part=${line1#*,}  
@@ -14,7 +14,7 @@ line=""
 day=$firstday
 x=2
 
-newfile="/var/www/html/water_alarm/data/${date}_water_alarm.txt"
+newfile="/var/www/html/water_alarms/data/${date}_water_alarm.txt"
 
 #echo $date
 #echo "${date}.txt"
