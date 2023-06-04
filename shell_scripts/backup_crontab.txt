@@ -1,0 +1,10 @@
+@reboot ~/bin/boot.sh
+
+* * * * * cd /home/pi/shell_scripts/cpu/ && sh log_cpu_temp.sh >> /home/pi/shell_scripts/cpu/cpu_temp.txt 2>&1
+
+* * * * * sh /home/pi/shell_scripts/cpu/plotplot.sh
+
+* * * * * cd /home/pi/shell_scripts/memory/ && sh memory.sh >> /home/pi/shell_scripts/memory/memory_usage.txt 2>&1
+
+* * * * * sh /home/pi/shell_scripts/memory/plotplot.sh
+

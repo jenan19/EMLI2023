@@ -1,0 +1,264 @@
+[1.375s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.376s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb28634f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb3108700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb3108700>>)
+[1.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.519s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/ros_embedded'
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/database) by extensions ['ignore', 'ignore_ament_install']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/database) by extension 'ignore'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/database) by extension 'ignore_ament_install'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/database) by extensions ['colcon_pkg']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/database) by extension 'colcon_pkg'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/database) by extensions ['colcon_meta']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/database) by extension 'colcon_meta'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/database) by extensions ['ros']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/database) by extension 'ros'
+[1.595s] DEBUG:colcon.colcon_core.package_identification:Package 'src/database' with type 'ros.ament_python' and name 'database'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_rw) by extensions ['ignore', 'ignore_ament_install']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_rw) by extension 'ignore'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_rw) by extension 'ignore_ament_install'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_rw) by extensions ['colcon_pkg']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_rw) by extension 'colcon_pkg'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_rw) by extensions ['colcon_meta']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_rw) by extension 'colcon_meta'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_rw) by extensions ['ros']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_rw) by extension 'ros'
+[1.600s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_rw' with type 'ros.ament_python' and name 'serial_rw'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_server) by extensions ['ignore', 'ignore_ament_install']
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_server) by extension 'ignore'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_server) by extension 'ignore_ament_install'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_server) by extensions ['colcon_pkg']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_server) by extension 'colcon_pkg'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_server) by extensions ['colcon_meta']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_server) by extension 'colcon_meta'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_server) by extensions ['ros']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_server) by extension 'ros'
+[1.603s] DEBUG:colcon.colcon_core.package_identification:Package 'src/web_server' with type 'ros.ament_python' and name 'web_server'
+[1.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.720s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/pi/ros_embedded/install
+[1.733s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.045s] Level 5:colcon.colcon_core.verb:set package 'database' build argument 'cmake_args' from command line to 'None'
+[2.045s] Level 5:colcon.colcon_core.verb:set package 'database' build argument 'cmake_target' from command line to 'None'
+[2.046s] Level 5:colcon.colcon_core.verb:set package 'database' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.046s] Level 5:colcon.colcon_core.verb:set package 'database' build argument 'cmake_clean_cache' from command line to 'False'
+[2.046s] Level 5:colcon.colcon_core.verb:set package 'database' build argument 'cmake_clean_first' from command line to 'False'
+[2.046s] Level 5:colcon.colcon_core.verb:set package 'database' build argument 'cmake_force_configure' from command line to 'False'
+[2.046s] Level 5:colcon.colcon_core.verb:set package 'database' build argument 'ament_cmake_args' from command line to 'None'
+[2.046s] Level 5:colcon.colcon_core.verb:set package 'database' build argument 'catkin_cmake_args' from command line to 'None'
+[2.046s] Level 5:colcon.colcon_core.verb:set package 'database' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.046s] DEBUG:colcon.colcon_core.verb:Building package 'database' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros_embedded/build/database', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros_embedded/install/database', 'merge_install': False, 'path': '/home/pi/ros_embedded/src/database', 'symlink_install': False, 'test_result_base': None}
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'serial_rw' build argument 'cmake_args' from command line to 'None'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'serial_rw' build argument 'cmake_target' from command line to 'None'
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'serial_rw' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'serial_rw' build argument 'cmake_clean_cache' from command line to 'False'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'serial_rw' build argument 'cmake_clean_first' from command line to 'False'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'serial_rw' build argument 'cmake_force_configure' from command line to 'False'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'serial_rw' build argument 'ament_cmake_args' from command line to 'None'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'serial_rw' build argument 'catkin_cmake_args' from command line to 'None'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'serial_rw' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.051s] DEBUG:colcon.colcon_core.verb:Building package 'serial_rw' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros_embedded/build/serial_rw', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros_embedded/install/serial_rw', 'merge_install': False, 'path': '/home/pi/ros_embedded/src/serial_rw', 'symlink_install': False, 'test_result_base': None}
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'web_server' build argument 'cmake_args' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'web_server' build argument 'cmake_target' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'web_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'web_server' build argument 'cmake_clean_cache' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'web_server' build argument 'cmake_clean_first' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'web_server' build argument 'cmake_force_configure' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'web_server' build argument 'ament_cmake_args' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'web_server' build argument 'catkin_cmake_args' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'web_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.056s] DEBUG:colcon.colcon_core.verb:Building package 'web_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/ros_embedded/build/web_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/ros_embedded/install/web_server', 'merge_install': False, 'path': '/home/pi/ros_embedded/src/web_server', 'symlink_install': False, 'test_result_base': None}
+[2.060s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.076s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ros_embedded/src/database' with build type 'ament_python'
+[2.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('database', 'ament_prefix_path')
+[2.096s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/database/share/database/hook/ament_prefix_path.ps1'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_embedded/install/database/share/database/hook/ament_prefix_path.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/database/share/database/hook/ament_prefix_path.sh'
+[2.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.132s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ros_embedded/src/serial_rw' with build type 'ament_python'
+[2.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_rw', 'ament_prefix_path')
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/hook/ament_prefix_path.ps1'
+[2.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/hook/ament_prefix_path.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/hook/ament_prefix_path.sh'
+[2.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.172s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/ros_embedded/src/web_server' with build type 'ament_python'
+[2.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_server', 'ament_prefix_path')
+[2.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/web_server/share/web_server/hook/ament_prefix_path.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_embedded/install/web_server/share/web_server/hook/ament_prefix_path.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/web_server/share/web_server/hook/ament_prefix_path.sh'
+[2.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.335s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ros_embedded/src/database'
+[3.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.459s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ros_embedded/src/serial_rw'
+[4.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.587s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/ros_embedded/src/web_server'
+[5.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros_embedded/src/database': PYTHONPATH=/home/pi/ros_embedded/build/database/prefix_override:/home/pi/ros_embedded/install/database/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/database build --build-base /home/pi/ros_embedded/build/database/build install --record /home/pi/ros_embedded/build/database/install.log --single-version-externally-managed
+[7.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros_embedded/src/serial_rw': PYTHONPATH=/home/pi/ros_embedded/build/serial_rw/prefix_override:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_rw build --build-base /home/pi/ros_embedded/build/serial_rw/build install --record /home/pi/ros_embedded/build/serial_rw/install.log --single-version-externally-managed
+[7.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/ros_embedded/src/web_server': PYTHONPATH=/home/pi/ros_embedded/build/web_server/prefix_override:/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/web_server build --build-base /home/pi/ros_embedded/build/web_server/build install --record /home/pi/ros_embedded/build/web_server/install.log --single-version-externally-managed
+[9.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros_embedded/src/database' returned '0': PYTHONPATH=/home/pi/ros_embedded/build/database/prefix_override:/home/pi/ros_embedded/install/database/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/database build --build-base /home/pi/ros_embedded/build/database/build install --record /home/pi/ros_embedded/build/database/install.log --single-version-externally-managed
+[9.331s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/database' for CMake module files
+[9.333s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/database' for CMake config files
+[9.337s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/database/lib'
+[9.338s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/database/bin'
+[9.338s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/database/lib/pkgconfig/database.pc'
+[9.339s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/database/lib/python3.10/site-packages'
+[9.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('database', 'pythonpath')
+[9.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/database/share/database/hook/pythonpath.ps1'
+[9.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_embedded/install/database/share/database/hook/pythonpath.dsv'
+[9.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/database/share/database/hook/pythonpath.sh'
+[9.351s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/database/bin'
+[9.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(database)
+[9.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/database/share/database/package.ps1'
+[9.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros_embedded/install/database/share/database/package.dsv'
+[9.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/database/share/database/package.sh'
+[9.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/database/share/database/package.bash'
+[9.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/database/share/database/package.zsh'
+[9.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros_embedded/install/database/share/colcon-core/packages/database)
+[9.384s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/serial_rw' for CMake module files
+[9.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros_embedded/src/serial_rw' returned '0': PYTHONPATH=/home/pi/ros_embedded/build/serial_rw/prefix_override:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_rw build --build-base /home/pi/ros_embedded/build/serial_rw/build install --record /home/pi/ros_embedded/build/serial_rw/install.log --single-version-externally-managed
+[9.388s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/serial_rw' for CMake config files
+[9.392s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/serial_rw/lib'
+[9.392s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/serial_rw/bin'
+[9.393s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/serial_rw/lib/pkgconfig/serial_rw.pc'
+[9.394s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages'
+[9.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_rw', 'pythonpath')
+[9.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/hook/pythonpath.ps1'
+[9.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/hook/pythonpath.dsv'
+[9.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/hook/pythonpath.sh'
+[9.405s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/serial_rw/bin'
+[9.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_rw)
+[9.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/package.ps1'
+[9.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/package.dsv'
+[9.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/package.sh'
+[9.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/package.bash'
+[9.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/serial_rw/share/serial_rw/package.zsh'
+[9.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros_embedded/install/serial_rw/share/colcon-core/packages/serial_rw)
+[9.428s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/web_server' for CMake module files
+[9.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/ros_embedded/src/web_server' returned '0': PYTHONPATH=/home/pi/ros_embedded/build/web_server/prefix_override:/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/web_server build --build-base /home/pi/ros_embedded/build/web_server/build install --record /home/pi/ros_embedded/build/web_server/install.log --single-version-externally-managed
+[9.433s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/web_server' for CMake config files
+[9.436s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/web_server/lib'
+[9.437s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/web_server/bin'
+[9.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_server', 'path')
+[9.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/web_server/share/web_server/hook/path.ps1'
+[9.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_embedded/install/web_server/share/web_server/hook/path.dsv'
+[9.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/web_server/share/web_server/hook/path.sh'
+[9.451s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/web_server/lib/pkgconfig/web_server.pc'
+[9.452s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages'
+[9.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_server', 'pythonpath')
+[9.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/web_server/share/web_server/hook/pythonpath.ps1'
+[9.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_embedded/install/web_server/share/web_server/hook/pythonpath.dsv'
+[9.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/web_server/share/web_server/hook/pythonpath.sh'
+[9.463s] Level 1:colcon.colcon_core.environment:checking '/home/pi/ros_embedded/install/web_server/bin'
+[9.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_server', 'pythonscriptspath')
+[9.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/web_server/share/web_server/hook/pythonscriptspath.ps1'
+[9.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/ros_embedded/install/web_server/share/web_server/hook/pythonscriptspath.dsv'
+[9.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/ros_embedded/install/web_server/share/web_server/hook/pythonscriptspath.sh'
+[9.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_server)
+[9.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/web_server/share/web_server/package.ps1'
+[9.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/ros_embedded/install/web_server/share/web_server/package.dsv'
+[9.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/web_server/share/web_server/package.sh'
+[9.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/web_server/share/web_server/package.bash'
+[9.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/ros_embedded/install/web_server/share/web_server/package.zsh'
+[9.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/ros_embedded/install/web_server/share/colcon-core/packages/web_server)
+[9.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.493s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.494s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.515s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.516s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.521s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[9.521s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.526s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros_embedded/install/local_setup.ps1'
+[9.532s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros_embedded/install/_local_setup_util_ps1.py'
+[9.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros_embedded/install/setup.ps1'
+[9.546s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros_embedded/install/local_setup.sh'
+[9.549s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/ros_embedded/install/_local_setup_util_sh.py'
+[9.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros_embedded/install/setup.sh'
+[9.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros_embedded/install/local_setup.bash'
+[9.559s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros_embedded/install/setup.bash'
+[9.565s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/ros_embedded/install/local_setup.zsh'
+[9.567s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/ros_embedded/install/setup.zsh'

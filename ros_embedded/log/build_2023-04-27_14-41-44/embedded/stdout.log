@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/embedded/embedded.egg-info
+writing ../../build/embedded/embedded.egg-info/PKG-INFO
+writing dependency_links to ../../build/embedded/embedded.egg-info/dependency_links.txt
+writing entry points to ../../build/embedded/embedded.egg-info/entry_points.txt
+writing requirements to ../../build/embedded/embedded.egg-info/requires.txt
+writing top-level names to ../../build/embedded/embedded.egg-info/top_level.txt
+writing manifest file '../../build/embedded/embedded.egg-info/SOURCES.txt'
+reading manifest file '../../build/embedded/embedded.egg-info/SOURCES.txt'
+writing manifest file '../../build/embedded/embedded.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/ros_embedded/build/embedded/build
+creating /home/pi/ros_embedded/build/embedded/build/lib
+creating /home/pi/ros_embedded/build/embedded/build/lib/embedded
+copying embedded/__init__.py -> /home/pi/ros_embedded/build/embedded/build/lib/embedded
+copying embedded/publisher_member_function.py -> /home/pi/ros_embedded/build/embedded/build/lib/embedded
+running install
+running install_lib
+creating /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded
+copying /home/pi/ros_embedded/build/embedded/build/lib/embedded/__init__.py -> /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded
+copying /home/pi/ros_embedded/build/embedded/build/lib/embedded/publisher_member_function.py -> /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded
+byte-compiling /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+running install_data
+creating /home/pi/ros_embedded/install/embedded/share/ament_index
+creating /home/pi/ros_embedded/install/embedded/share/ament_index/resource_index
+creating /home/pi/ros_embedded/install/embedded/share/ament_index/resource_index/packages
+copying resource/embedded -> /home/pi/ros_embedded/install/embedded/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/ros_embedded/install/embedded/share/embedded
+running install_egg_info
+Copying ../../build/embedded/embedded.egg-info to /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker script to /home/pi/ros_embedded/install/embedded/lib/embedded
+writing list of installed files to '/home/pi/ros_embedded/build/embedded/install.log'

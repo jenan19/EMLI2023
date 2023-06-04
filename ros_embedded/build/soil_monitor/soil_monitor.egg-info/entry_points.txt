@@ -1,0 +1,3 @@
+[console_scripts]
+soil_monitor = soil_monitor.soil_monitor:main
+

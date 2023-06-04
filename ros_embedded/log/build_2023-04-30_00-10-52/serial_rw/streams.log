@@ -1,0 +1,39 @@
+[2.505s] Invoking command in '/home/pi/ros_embedded/src/serial_rw': PYTHONPATH=/home/pi/ros_embedded/build/serial_rw/prefix_override:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_rw build --build-base /home/pi/ros_embedded/build/serial_rw/build install --record /home/pi/ros_embedded/build/serial_rw/install.log --single-version-externally-managed
+[3.496s] running egg_info
+[3.498s] creating ../../build/serial_rw/serial_rw.egg-info
+[3.499s] writing ../../build/serial_rw/serial_rw.egg-info/PKG-INFO
+[3.500s] writing dependency_links to ../../build/serial_rw/serial_rw.egg-info/dependency_links.txt
+[3.501s] writing entry points to ../../build/serial_rw/serial_rw.egg-info/entry_points.txt
+[3.502s] writing requirements to ../../build/serial_rw/serial_rw.egg-info/requires.txt
+[3.502s] writing top-level names to ../../build/serial_rw/serial_rw.egg-info/top_level.txt
+[3.503s] writing manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'
+[3.510s] reading manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'
+[3.513s] writing manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'
+[3.513s] running build
+[3.514s] running build_py
+[3.514s] creating /home/pi/ros_embedded/build/serial_rw/build
+[3.515s] creating /home/pi/ros_embedded/build/serial_rw/build/lib
+[3.515s] creating /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw
+[3.516s] copying serial_rw/serial_rw.py -> /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw
+[3.516s] copying serial_rw/__init__.py -> /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw
+[3.517s] running install
+[3.517s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.518s]   warnings.warn(
+[3.518s] running install_lib
+[3.521s] creating /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw
+[3.522s] copying /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw/serial_rw.py -> /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw
+[3.523s] copying /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw/__init__.py -> /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw
+[3.525s] byte-compiling /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw/serial_rw.py to serial_rw.cpython-310.pyc
+[3.527s] byte-compiling /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw/__init__.py to __init__.cpython-310.pyc
+[3.528s] running install_data
+[3.530s] creating /home/pi/ros_embedded/install/serial_rw/share/ament_index
+[3.531s] creating /home/pi/ros_embedded/install/serial_rw/share/ament_index/resource_index
+[3.531s] creating /home/pi/ros_embedded/install/serial_rw/share/ament_index/resource_index/packages
+[3.532s] copying resource/serial_rw -> /home/pi/ros_embedded/install/serial_rw/share/ament_index/resource_index/packages
+[3.532s] copying package.xml -> /home/pi/ros_embedded/install/serial_rw/share/serial_rw
+[3.532s] running install_egg_info
+[3.538s] Copying ../../build/serial_rw/serial_rw.egg-info to /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw-0.0.0-py3.10.egg-info
+[3.543s] running install_scripts
+[3.620s] Installing rw script to /home/pi/ros_embedded/install/serial_rw/lib/serial_rw
+[3.621s] writing list of installed files to '/home/pi/ros_embedded/build/serial_rw/install.log'
+[3.735s] Invoked command in '/home/pi/ros_embedded/src/serial_rw' returned '0': PYTHONPATH=/home/pi/ros_embedded/build/serial_rw/prefix_override:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_rw build --build-base /home/pi/ros_embedded/build/serial_rw/build install --record /home/pi/ros_embedded/build/serial_rw/install.log --single-version-externally-managed

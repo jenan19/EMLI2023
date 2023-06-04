@@ -1,0 +1,26 @@
+[10.277s] Invoking command in '/home/pi/ros_embedded/src/database': PYTHONPATH=/home/pi/ros_embedded/build/database/prefix_override:/home/pi/ros_embedded/install/database/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/database build --build-base /home/pi/ros_embedded/build/database/build install --record /home/pi/ros_embedded/build/database/install.log --single-version-externally-managed
+[13.339s] running egg_info
+[13.346s] writing ../../build/database/database.egg-info/PKG-INFO
+[13.347s] writing dependency_links to ../../build/database/database.egg-info/dependency_links.txt
+[13.349s] writing entry points to ../../build/database/database.egg-info/entry_points.txt
+[13.349s] writing requirements to ../../build/database/database.egg-info/requires.txt
+[13.350s] writing top-level names to ../../build/database/database.egg-info/top_level.txt
+[13.359s] reading manifest file '../../build/database/database.egg-info/SOURCES.txt'
+[13.365s] writing manifest file '../../build/database/database.egg-info/SOURCES.txt'
+[13.368s] running build
+[13.368s] running build_py
+[13.369s] copying database/database_updater.py -> /home/pi/ros_embedded/build/database/build/lib/database
+[13.370s] running install
+[13.370s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.373s]   warnings.warn(
+[13.374s] running install_lib
+[13.382s] copying /home/pi/ros_embedded/build/database/build/lib/database/database_updater.py -> /home/pi/ros_embedded/install/database/lib/python3.10/site-packages/database
+[13.382s] byte-compiling /home/pi/ros_embedded/install/database/lib/python3.10/site-packages/database/database_updater.py to database_updater.cpython-310.pyc
+[13.384s] running install_data
+[13.391s] running install_egg_info
+[13.404s] removing '/home/pi/ros_embedded/install/database/lib/python3.10/site-packages/database-0.0.0-py3.10.egg-info' (and everything under it)
+[13.405s] Copying ../../build/database/database.egg-info to /home/pi/ros_embedded/install/database/lib/python3.10/site-packages/database-0.0.0-py3.10.egg-info
+[13.410s] running install_scripts
+[13.578s] Installing database_updater script to /home/pi/ros_embedded/install/database/lib/database
+[13.579s] writing list of installed files to '/home/pi/ros_embedded/build/database/install.log'
+[13.872s] Invoked command in '/home/pi/ros_embedded/src/database' returned '0': PYTHONPATH=/home/pi/ros_embedded/build/database/prefix_override:/home/pi/ros_embedded/install/database/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/database build --build-base /home/pi/ros_embedded/build/database/build install --record /home/pi/ros_embedded/build/database/install.log --single-version-externally-managed

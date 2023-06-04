@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.001552] (database) JobQueued: {'identifier': 'database', 'dependencies': OrderedDict()}
+[0.002163] (serial_rw) JobQueued: {'identifier': 'serial_rw', 'dependencies': OrderedDict()}
+[0.004176] (soil_monitor) JobQueued: {'identifier': 'soil_monitor', 'dependencies': OrderedDict()}
+[0.004366] (web_server) JobQueued: {'identifier': 'web_server', 'dependencies': OrderedDict()}
+[0.004452] (database) JobStarted: {'identifier': 'database'}
+[0.066424] (serial_rw) JobStarted: {'identifier': 'serial_rw'}
+[0.099047] (-) TimerEvent: {}
+[0.109296] (soil_monitor) JobStarted: {'identifier': 'soil_monitor'}
+[0.148822] (web_server) JobStarted: {'identifier': 'web_server'}
+[0.199360] (-) TimerEvent: {}
+[0.300296] (-) TimerEvent: {}
+[0.400965] (-) TimerEvent: {}
+[0.501798] (-) TimerEvent: {}
+[0.602687] (-) TimerEvent: {}
+[0.703323] (-) TimerEvent: {}
+[0.803989] (-) TimerEvent: {}
+[0.904642] (-) TimerEvent: {}
+[1.005315] (-) TimerEvent: {}
+[1.106027] (-) TimerEvent: {}
+[1.206850] (-) TimerEvent: {}
+[1.309033] (-) TimerEvent: {}
+[1.409956] (-) TimerEvent: {}
+[1.510714] (-) TimerEvent: {}
+[1.611502] (-) TimerEvent: {}
+[1.712204] (-) TimerEvent: {}
+[1.812842] (-) TimerEvent: {}
+[1.913472] (-) TimerEvent: {}
+[2.014145] (-) TimerEvent: {}
+[2.114859] (-) TimerEvent: {}
+[2.215583] (-) TimerEvent: {}
+[2.316222] (-) TimerEvent: {}
+[2.416952] (-) TimerEvent: {}
+[2.517850] (-) TimerEvent: {}
+[2.618638] (-) TimerEvent: {}
+[2.719627] (-) TimerEvent: {}
+[2.820329] (-) TimerEvent: {}
+[2.920976] (-) TimerEvent: {}
+[3.021640] (-) TimerEvent: {}
+[3.122335] (-) TimerEvent: {}
+[3.222990] (-) TimerEvent: {}
+[3.323693] (-) TimerEvent: {}
+[3.424353] (-) TimerEvent: {}
+[3.525127] (-) TimerEvent: {}
+[3.625993] (-) TimerEvent: {}
+[3.726739] (-) TimerEvent: {}
+[3.827503] (-) TimerEvent: {}
+[3.928188] (-) TimerEvent: {}
+[4.028852] (-) TimerEvent: {}
+[4.129479] (-) TimerEvent: {}
+[4.230157] (-) TimerEvent: {}
+[4.330759] (-) TimerEvent: {}
+[4.431382] (-) TimerEvent: {}
+[4.532066] (-) TimerEvent: {}
+[4.632855] (-) TimerEvent: {}
+[4.734462] (-) TimerEvent: {}
+[4.837114] (-) TimerEvent: {}
+[4.938356] (-) TimerEvent: {}
+[5.040377] (-) TimerEvent: {}
+[5.141907] (-) TimerEvent: {}
+[5.243583] (-) TimerEvent: {}
+[5.345093] (-) TimerEvent: {}
+[5.446552] (-) TimerEvent: {}
+[5.547950] (-) TimerEvent: {}
+[5.649500] (-) TimerEvent: {}
+[5.751083] (-) TimerEvent: {}
+[5.852541] (-) TimerEvent: {}
+[5.953910] (-) TimerEvent: {}
+[6.055501] (-) TimerEvent: {}
+[6.157188] (-) TimerEvent: {}
+[6.258668] (-) TimerEvent: {}
+[6.360560] (-) TimerEvent: {}
+[6.462637] (-) TimerEvent: {}
+[6.564424] (-) TimerEvent: {}
+[6.666480] (-) TimerEvent: {}
+[6.770163] (-) TimerEvent: {}
+[6.874050] (-) TimerEvent: {}
+[6.978265] (-) TimerEvent: {}
+[7.000167] (web_server) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/web_server', 'build', '--build-base', '/home/pi/ros_embedded/build/web_server/build', 'install', '--record', '/home/pi/ros_embedded/build/web_server/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ros_embedded/src/web_server', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.42.0.167 43414 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/12', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros_embedded/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '98', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/ros_embedded/install/web_server/bin:/opt/ros/humble/bin:/home/pi/.local/bin:/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros_embedded/install/web_server:/home/pi/ros_embedded/install/serial_rw:/home/pi/ros_embedded/install/database:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros_embedded/build/web_server', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.167 43414 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros_embedded/build/web_server/prefix_override:/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages:/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:/home/pi/ros_embedded/install/database/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.031898] (soil_monitor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/soil_monitor', 'build', '--build-base', '/home/pi/ros_embedded/build/soil_monitor/build', 'install', '--record', '/home/pi/ros_embedded/build/soil_monitor/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ros_embedded/src/soil_monitor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.42.0.167 43414 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/12', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros_embedded/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '98', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/ros_embedded/install/web_server/bin:/opt/ros/humble/bin:/home/pi/.local/bin:/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros_embedded/install/web_server:/home/pi/ros_embedded/install/serial_rw:/home/pi/ros_embedded/install/database:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros_embedded/build/soil_monitor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.167 43414 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros_embedded/build/soil_monitor/prefix_override:/home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages:/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:/home/pi/ros_embedded/install/database/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.050106] (database) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/database', 'build', '--build-base', '/home/pi/ros_embedded/build/database/build', 'install', '--record', '/home/pi/ros_embedded/build/database/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ros_embedded/src/database', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.42.0.167 43414 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/12', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros_embedded/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '98', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/ros_embedded/install/web_server/bin:/opt/ros/humble/bin:/home/pi/.local/bin:/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros_embedded/install/web_server:/home/pi/ros_embedded/install/serial_rw:/home/pi/ros_embedded/install/database:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros_embedded/build/database', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.167 43414 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros_embedded/build/database/prefix_override:/home/pi/ros_embedded/install/database/lib/python3.10/site-packages:/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:/home/pi/ros_embedded/install/database/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.074545] (serial_rw) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_rw', 'build', '--build-base', '/home/pi/ros_embedded/build/serial_rw/build', 'install', '--record', '/home/pi/ros_embedded/build/serial_rw/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ros_embedded/src/serial_rw', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.42.0.167 43414 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/12', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros_embedded/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '98', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/ros_embedded/install/web_server/bin:/opt/ros/humble/bin:/home/pi/.local/bin:/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros_embedded/install/web_server:/home/pi/ros_embedded/install/serial_rw:/home/pi/ros_embedded/install/database:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros_embedded/build/serial_rw', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.167 43414 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros_embedded/build/serial_rw/prefix_override:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:/home/pi/ros_embedded/install/database/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.083093] (-) TimerEvent: {}
+[7.184021] (-) TimerEvent: {}
+[7.284830] (-) TimerEvent: {}
+[7.385862] (-) TimerEvent: {}
+[7.486718] (-) TimerEvent: {}
+[7.587677] (-) TimerEvent: {}
+[7.689329] (-) TimerEvent: {}
+[7.790884] (-) TimerEvent: {}
+[7.892463] (-) TimerEvent: {}
+[7.994094] (-) TimerEvent: {}
+[8.095553] (-) TimerEvent: {}
+[8.196447] (-) TimerEvent: {}
+[8.297286] (-) TimerEvent: {}
+[8.398293] (-) TimerEvent: {}
+[8.499166] (-) TimerEvent: {}
+[8.586601] (web_server) StdoutLine: {'line': b'running egg_info\n'}
+[8.591225] (web_server) StdoutLine: {'line': b'writing ../../build/web_server/web_server.egg-info/PKG-INFO\n'}
+[8.592581] (web_server) StdoutLine: {'line': b'writing dependency_links to ../../build/web_server/web_server.egg-info/dependency_links.txt\n'}
+[8.593664] (web_server) StdoutLine: {'line': b'writing entry points to ../../build/web_server/web_server.egg-info/entry_points.txt\n'}
+[8.594637] (web_server) StdoutLine: {'line': b'writing requirements to ../../build/web_server/web_server.egg-info/requires.txt\n'}
+[8.595508] (web_server) StdoutLine: {'line': b'writing top-level names to ../../build/web_server/web_server.egg-info/top_level.txt\n'}
+[8.599440] (-) TimerEvent: {}
+[8.606826] (web_server) StdoutLine: {'line': b"reading manifest file '../../build/web_server/web_server.egg-info/SOURCES.txt'\n"}
+[8.611460] (web_server) StdoutLine: {'line': b"writing manifest file '../../build/web_server/web_server.egg-info/SOURCES.txt'\n"}
+[8.612376] (web_server) StdoutLine: {'line': b'running build\n'}
+[8.612976] (web_server) StdoutLine: {'line': b'running build_py\n'}
+[8.614336] (web_server) StdoutLine: {'line': b'running install\n'}
+[8.615245] (web_server) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.615971] (web_server) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.616854] (web_server) StdoutLine: {'line': b'running install_lib\n'}
+[8.621023] (database) StdoutLine: {'line': b'running egg_info\n'}
+[8.624115] (web_server) StdoutLine: {'line': b'running install_data\n'}
+[8.625462] (database) StdoutLine: {'line': b'writing ../../build/database/database.egg-info/PKG-INFO\n'}
+[8.627147] (web_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.627778] (database) StdoutLine: {'line': b'writing dependency_links to ../../build/database/database.egg-info/dependency_links.txt\n'}
+[8.628556] (database) StdoutLine: {'line': b'writing entry points to ../../build/database/database.egg-info/entry_points.txt\n'}
+[8.629581] (database) StdoutLine: {'line': b'writing requirements to ../../build/database/database.egg-info/requires.txt\n'}
+[8.630999] (database) StdoutLine: {'line': b'writing top-level names to ../../build/database/database.egg-info/top_level.txt\n'}
+[8.636620] (web_server) StdoutLine: {'line': b"removing '/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.639292] (web_server) StdoutLine: {'line': b'Copying ../../build/web_server/web_server.egg-info to /home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server-0.0.0-py3.10.egg-info\n'}
+[8.641952] (database) StdoutLine: {'line': b"reading manifest file '../../build/database/database.egg-info/SOURCES.txt'\n"}
+[8.645147] (soil_monitor) StdoutLine: {'line': b'running egg_info\n'}
+[8.646191] (database) StdoutLine: {'line': b"writing manifest file '../../build/database/database.egg-info/SOURCES.txt'\n"}
+[8.647170] (database) StdoutLine: {'line': b'running build\n'}
+[8.647824] (database) StdoutLine: {'line': b'running build_py\n'}
+[8.648691] (web_server) StdoutLine: {'line': b'running install_scripts\n'}
+[8.649220] (database) StdoutLine: {'line': b'copying database/database_updater.py -> /home/pi/ros_embedded/build/database/build/lib/database\n'}
+[8.650627] (database) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.651404] (database) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.652231] (database) StdoutLine: {'line': b'running install\n'}
+[8.653415] (database) StdoutLine: {'line': b'running install_lib\n'}
+[8.657051] (database) StdoutLine: {'line': b'copying /home/pi/ros_embedded/build/database/build/lib/database/database_updater.py -> /home/pi/ros_embedded/install/database/lib/python3.10/site-packages/database\n'}
+[8.659563] (serial_rw) StdoutLine: {'line': b'running egg_info\n'}
+[8.660889] (database) StdoutLine: {'line': b'byte-compiling /home/pi/ros_embedded/install/database/lib/python3.10/site-packages/database/database_updater.py to database_updater.cpython-310.pyc\n'}
+[8.662555] (soil_monitor) StdoutLine: {'line': b'creating ../../build/soil_monitor/soil_monitor.egg-info\n'}
+[8.664975] (serial_rw) StdoutLine: {'line': b'writing ../../build/serial_rw/serial_rw.egg-info/PKG-INFO\n'}
+[8.666155] (database) StdoutLine: {'line': b'running install_data\n'}
+[8.666958] (serial_rw) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_rw/serial_rw.egg-info/dependency_links.txt\n'}
+[8.667919] (serial_rw) StdoutLine: {'line': b'writing entry points to ../../build/serial_rw/serial_rw.egg-info/entry_points.txt\n'}
+[8.669044] (database) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.670078] (serial_rw) StdoutLine: {'line': b'writing requirements to ../../build/serial_rw/serial_rw.egg-info/requires.txt\n'}
+[8.670656] (serial_rw) StdoutLine: {'line': b'writing top-level names to ../../build/serial_rw/serial_rw.egg-info/top_level.txt\n'}
+[8.672084] (soil_monitor) StdoutLine: {'line': b'writing ../../build/soil_monitor/soil_monitor.egg-info/PKG-INFO\n'}
+[8.675487] (soil_monitor) StdoutLine: {'line': b'writing dependency_links to ../../build/soil_monitor/soil_monitor.egg-info/dependency_links.txt\n'}
+[8.677113] (database) StdoutLine: {'line': b"removing '/home/pi/ros_embedded/install/database/lib/python3.10/site-packages/database-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.678644] (soil_monitor) StdoutLine: {'line': b'writing entry points to ../../build/soil_monitor/soil_monitor.egg-info/entry_points.txt\n'}
+[8.682010] (database) StdoutLine: {'line': b'Copying ../../build/database/database.egg-info to /home/pi/ros_embedded/install/database/lib/python3.10/site-packages/database-0.0.0-py3.10.egg-info\n'}
+[8.683573] (serial_rw) StdoutLine: {'line': b"reading manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'\n"}
+[8.684325] (soil_monitor) StdoutLine: {'line': b'writing requirements to ../../build/soil_monitor/soil_monitor.egg-info/requires.txt\n'}
+[8.687907] (serial_rw) StdoutLine: {'line': b"writing manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'\n"}
+[8.689930] (soil_monitor) StdoutLine: {'line': b'writing top-level names to ../../build/soil_monitor/soil_monitor.egg-info/top_level.txt\n'}
+[8.692488] (serial_rw) StdoutLine: {'line': b'running build\n'}
+[8.693131] (serial_rw) StdoutLine: {'line': b'running build_py\n'}
+[8.697904] (soil_monitor) StdoutLine: {'line': b"writing manifest file '../../build/soil_monitor/soil_monitor.egg-info/SOURCES.txt'\n"}
+[8.698613] (database) StdoutLine: {'line': b'running install_scripts\n'}
+[8.699240] (serial_rw) StdoutLine: {'line': b'running install\n'}
+[8.700075] (-) TimerEvent: {}
+[8.701538] (serial_rw) StdoutLine: {'line': b'running install_lib\n'}
+[8.704223] (serial_rw) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.704980] (serial_rw) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.705511] (serial_rw) StdoutLine: {'line': b'running install_data\n'}
+[8.706114] (serial_rw) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.711282] (soil_monitor) StdoutLine: {'line': b"reading manifest file '../../build/soil_monitor/soil_monitor.egg-info/SOURCES.txt'\n"}
+[8.712309] (serial_rw) StdoutLine: {'line': b"removing '/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.714592] (serial_rw) StdoutLine: {'line': b'Copying ../../build/serial_rw/serial_rw.egg-info to /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw-0.0.0-py3.10.egg-info\n'}
+[8.720734] (soil_monitor) StdoutLine: {'line': b"writing manifest file '../../build/soil_monitor/soil_monitor.egg-info/SOURCES.txt'\n"}
+[8.722508] (soil_monitor) StdoutLine: {'line': b'running build\n'}
+[8.723565] (soil_monitor) StdoutLine: {'line': b'running build_py\n'}
+[8.725133] (serial_rw) StdoutLine: {'line': b'running install_scripts\n'}
+[8.726620] (soil_monitor) StdoutLine: {'line': b'creating /home/pi/ros_embedded/build/soil_monitor/build\n'}
+[8.728063] (soil_monitor) StdoutLine: {'line': b'creating /home/pi/ros_embedded/build/soil_monitor/build/lib\n'}
+[8.730104] (soil_monitor) StdoutLine: {'line': b'creating /home/pi/ros_embedded/build/soil_monitor/build/lib/soil_monitor\n'}
+[8.732467] (soil_monitor) StdoutLine: {'line': b'copying soil_monitor/__init__.py -> /home/pi/ros_embedded/build/soil_monitor/build/lib/soil_monitor\n'}
+[8.735545] (soil_monitor) StdoutLine: {'line': b'running install\n'}
+[8.737447] (soil_monitor) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.739947] (soil_monitor) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.741123] (soil_monitor) StdoutLine: {'line': b'running install_lib\n'}
+[8.746411] (soil_monitor) StdoutLine: {'line': b'creating /home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor\n'}
+[8.748502] (soil_monitor) StdoutLine: {'line': b'copying /home/pi/ros_embedded/build/soil_monitor/build/lib/soil_monitor/__init__.py -> /home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor\n'}
+[8.754055] (soil_monitor) StdoutLine: {'line': b'byte-compiling /home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor/__init__.py to __init__.cpython-310.pyc\n'}
+[8.758068] (soil_monitor) StdoutLine: {'line': b'running install_data\n'}
+[8.762064] (web_server) StdoutLine: {'line': b'Installing web_server script to /home/pi/ros_embedded/install/web_server/lib/web_server\n'}
+[8.764138] (soil_monitor) StdoutLine: {'line': b'creating /home/pi/ros_embedded/install/soil_monitor/share/ament_index\n'}
+[8.764821] (web_server) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros_embedded/build/web_server/install.log'\n"}
+[8.767351] (soil_monitor) StdoutLine: {'line': b'creating /home/pi/ros_embedded/install/soil_monitor/share/ament_index/resource_index\n'}
+[8.770817] (soil_monitor) StdoutLine: {'line': b'creating /home/pi/ros_embedded/install/soil_monitor/share/ament_index/resource_index/packages\n'}
+[8.774106] (soil_monitor) StdoutLine: {'line': b'copying resource/soil_monitor -> /home/pi/ros_embedded/install/soil_monitor/share/ament_index/resource_index/packages\n'}
+[8.778177] (soil_monitor) StdoutLine: {'line': b'copying package.xml -> /home/pi/ros_embedded/install/soil_monitor/share/soil_monitor\n'}
+[8.782213] (soil_monitor) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.798640] (soil_monitor) StdoutLine: {'line': b'Copying ../../build/soil_monitor/soil_monitor.egg-info to /home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor-0.0.0-py3.10.egg-info\n'}
+[8.800259] (-) TimerEvent: {}
+[8.815692] (database) StdoutLine: {'line': b'Installing database_updater script to /home/pi/ros_embedded/install/database/lib/database\n'}
+[8.818638] (soil_monitor) StdoutLine: {'line': b'running install_scripts\n'}
+[8.822781] (database) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros_embedded/build/database/install.log'\n"}
+[8.884339] (serial_rw) StdoutLine: {'line': b'Installing rw script to /home/pi/ros_embedded/install/serial_rw/lib/serial_rw\n'}
+[8.889280] (serial_rw) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros_embedded/build/serial_rw/install.log'\n"}
+[8.900794] (-) TimerEvent: {}
+[9.003219] (-) TimerEvent: {}
+[9.026038] (web_server) CommandEnded: {'returncode': 0}
+[9.043134] (soil_monitor) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros_embedded/build/soil_monitor/install.log'\n"}
+[9.103670] (-) TimerEvent: {}
+[9.205590] (-) TimerEvent: {}
+[9.224490] (web_server) JobEnded: {'identifier': 'web_server', 'rc': 0}
+[9.237272] (database) CommandEnded: {'returncode': 0}
+[9.276757] (database) JobEnded: {'identifier': 'database', 'rc': 0}
+[9.281739] (soil_monitor) CommandEnded: {'returncode': 0}
+[9.305763] (-) TimerEvent: {}
+[9.318404] (soil_monitor) JobEnded: {'identifier': 'soil_monitor', 'rc': 0}
+[9.323158] (serial_rw) CommandEnded: {'returncode': 0}
+[9.358000] (serial_rw) JobEnded: {'identifier': 'serial_rw', 'rc': 0}
+[9.361102] (-) EventReactorShutdown: {}

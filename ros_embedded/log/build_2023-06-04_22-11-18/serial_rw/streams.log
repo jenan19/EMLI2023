@@ -1,0 +1,23 @@
+[6.860s] Invoking command in '/home/pi/ros_embedded/src/serial_rw': PYTHONPATH=/home/pi/ros_embedded/build/serial_rw/prefix_override:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_rw build --build-base /home/pi/ros_embedded/build/serial_rw/build install --record /home/pi/ros_embedded/build/serial_rw/install.log --single-version-externally-managed
+[8.515s] running egg_info
+[8.520s] writing ../../build/serial_rw/serial_rw.egg-info/PKG-INFO
+[8.521s] writing dependency_links to ../../build/serial_rw/serial_rw.egg-info/dependency_links.txt
+[8.522s] writing entry points to ../../build/serial_rw/serial_rw.egg-info/entry_points.txt
+[8.524s] writing requirements to ../../build/serial_rw/serial_rw.egg-info/requires.txt
+[8.525s] writing top-level names to ../../build/serial_rw/serial_rw.egg-info/top_level.txt
+[8.535s] reading manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'
+[8.539s] writing manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'
+[8.540s] running build
+[8.540s] running build_py
+[8.542s] running install
+[8.543s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.545s]   warnings.warn(
+[8.546s] running install_lib
+[8.552s] running install_data
+[8.554s] running install_egg_info
+[8.563s] removing '/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw-0.0.0-py3.10.egg-info' (and everything under it)
+[8.565s] Copying ../../build/serial_rw/serial_rw.egg-info to /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw-0.0.0-py3.10.egg-info
+[8.573s] running install_scripts
+[8.711s] Installing rw script to /home/pi/ros_embedded/install/serial_rw/lib/serial_rw
+[8.714s] writing list of installed files to '/home/pi/ros_embedded/build/serial_rw/install.log'
+[8.980s] Invoked command in '/home/pi/ros_embedded/src/serial_rw' returned '0': PYTHONPATH=/home/pi/ros_embedded/build/serial_rw/prefix_override:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_rw build --build-base /home/pi/ros_embedded/build/serial_rw/build install --record /home/pi/ros_embedded/build/serial_rw/install.log --single-version-externally-managed

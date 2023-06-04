@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001484] (serial_rw) JobQueued: {'identifier': 'serial_rw', 'dependencies': OrderedDict()}
+[0.002058] (serial_rw) JobStarted: {'identifier': 'serial_rw'}
+[0.099093] (-) TimerEvent: {}
+[0.199688] (-) TimerEvent: {}
+[0.300295] (-) TimerEvent: {}
+[0.400902] (-) TimerEvent: {}
+[0.501526] (-) TimerEvent: {}
+[0.602086] (-) TimerEvent: {}
+[0.702654] (-) TimerEvent: {}
+[0.803220] (-) TimerEvent: {}
+[0.903809] (-) TimerEvent: {}
+[1.004436] (-) TimerEvent: {}
+[1.105103] (-) TimerEvent: {}
+[1.205962] (-) TimerEvent: {}
+[1.306779] (-) TimerEvent: {}
+[1.407690] (-) TimerEvent: {}
+[1.508340] (-) TimerEvent: {}
+[1.608945] (-) TimerEvent: {}
+[1.709550] (-) TimerEvent: {}
+[1.810118] (-) TimerEvent: {}
+[1.910721] (-) TimerEvent: {}
+[2.011338] (-) TimerEvent: {}
+[2.111911] (-) TimerEvent: {}
+[2.212502] (-) TimerEvent: {}
+[2.313145] (-) TimerEvent: {}
+[2.413894] (-) TimerEvent: {}
+[2.503042] (serial_rw) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_rw', 'build', '--build-base', '/home/pi/ros_embedded/build/serial_rw/build', 'install', '--record', '/home/pi/ros_embedded/build/serial_rw/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/ros_embedded/src/serial_rw', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.0.0.1 40212 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros_embedded/build/serial_rw', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.1 40212 10.0.0.10 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros_embedded/build/serial_rw/prefix_override:/home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.514276] (-) TimerEvent: {}
+[2.617208] (-) TimerEvent: {}
+[2.717900] (-) TimerEvent: {}
+[2.818595] (-) TimerEvent: {}
+[2.919220] (-) TimerEvent: {}
+[3.019787] (-) TimerEvent: {}
+[3.120341] (-) TimerEvent: {}
+[3.220892] (-) TimerEvent: {}
+[3.321450] (-) TimerEvent: {}
+[3.422018] (-) TimerEvent: {}
+[3.497872] (serial_rw) StdoutLine: {'line': b'running egg_info\n'}
+[3.500118] (serial_rw) StdoutLine: {'line': b'creating ../../build/serial_rw/serial_rw.egg-info\n'}
+[3.500841] (serial_rw) StdoutLine: {'line': b'writing ../../build/serial_rw/serial_rw.egg-info/PKG-INFO\n'}
+[3.501931] (serial_rw) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_rw/serial_rw.egg-info/dependency_links.txt\n'}
+[3.503183] (serial_rw) StdoutLine: {'line': b'writing entry points to ../../build/serial_rw/serial_rw.egg-info/entry_points.txt\n'}
+[3.503789] (serial_rw) StdoutLine: {'line': b'writing requirements to ../../build/serial_rw/serial_rw.egg-info/requires.txt\n'}
+[3.504335] (serial_rw) StdoutLine: {'line': b'writing top-level names to ../../build/serial_rw/serial_rw.egg-info/top_level.txt\n'}
+[3.505114] (serial_rw) StdoutLine: {'line': b"writing manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'\n"}
+[3.511602] (serial_rw) StdoutLine: {'line': b"reading manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'\n"}
+[3.514573] (serial_rw) StdoutLine: {'line': b"writing manifest file '../../build/serial_rw/serial_rw.egg-info/SOURCES.txt'\n"}
+[3.515156] (serial_rw) StdoutLine: {'line': b'running build\n'}
+[3.515596] (serial_rw) StdoutLine: {'line': b'running build_py\n'}
+[3.516040] (serial_rw) StdoutLine: {'line': b'creating /home/pi/ros_embedded/build/serial_rw/build\n'}
+[3.516550] (serial_rw) StdoutLine: {'line': b'creating /home/pi/ros_embedded/build/serial_rw/build/lib\n'}
+[3.516980] (serial_rw) StdoutLine: {'line': b'creating /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw\n'}
+[3.517404] (serial_rw) StdoutLine: {'line': b'copying serial_rw/serial_rw.py -> /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw\n'}
+[3.517939] (serial_rw) StdoutLine: {'line': b'copying serial_rw/__init__.py -> /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw\n'}
+[3.518449] (serial_rw) StdoutLine: {'line': b'running install\n'}
+[3.518955] (serial_rw) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.519413] (serial_rw) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.520098] (serial_rw) StdoutLine: {'line': b'running install_lib\n'}
+[3.522142] (-) TimerEvent: {}
+[3.523157] (serial_rw) StdoutLine: {'line': b'creating /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw\n'}
+[3.523678] (serial_rw) StdoutLine: {'line': b'copying /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw/serial_rw.py -> /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw\n'}
+[3.524348] (serial_rw) StdoutLine: {'line': b'copying /home/pi/ros_embedded/build/serial_rw/build/lib/serial_rw/__init__.py -> /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw\n'}
+[3.526639] (serial_rw) StdoutLine: {'line': b'byte-compiling /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw/serial_rw.py to serial_rw.cpython-310.pyc\n'}
+[3.528990] (serial_rw) StdoutLine: {'line': b'byte-compiling /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw/__init__.py to __init__.cpython-310.pyc\n'}
+[3.529959] (serial_rw) StdoutLine: {'line': b'running install_data\n'}
+[3.532070] (serial_rw) StdoutLine: {'line': b'creating /home/pi/ros_embedded/install/serial_rw/share/ament_index\n'}
+[3.532653] (serial_rw) StdoutLine: {'line': b'creating /home/pi/ros_embedded/install/serial_rw/share/ament_index/resource_index\n'}
+[3.533126] (serial_rw) StdoutLine: {'line': b'creating /home/pi/ros_embedded/install/serial_rw/share/ament_index/resource_index/packages\n'}
+[3.533673] (serial_rw) StdoutLine: {'line': b'copying resource/serial_rw -> /home/pi/ros_embedded/install/serial_rw/share/ament_index/resource_index/packages\n'}
+[3.534090] (serial_rw) StdoutLine: {'line': b'copying package.xml -> /home/pi/ros_embedded/install/serial_rw/share/serial_rw\n'}
+[3.534394] (serial_rw) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.540159] (serial_rw) StdoutLine: {'line': b'Copying ../../build/serial_rw/serial_rw.egg-info to /home/pi/ros_embedded/install/serial_rw/lib/python3.10/site-packages/serial_rw-0.0.0-py3.10.egg-info\n'}
+[3.545049] (serial_rw) StdoutLine: {'line': b'running install_scripts\n'}
+[3.621279] (serial_rw) StdoutLine: {'line': b'Installing rw script to /home/pi/ros_embedded/install/serial_rw/lib/serial_rw\n'}
+[3.622278] (-) TimerEvent: {}
+[3.623063] (serial_rw) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros_embedded/build/serial_rw/install.log'\n"}
+[3.722685] (-) TimerEvent: {}
+[3.736936] (serial_rw) CommandEnded: {'returncode': 0}
+[3.795027] (serial_rw) JobEnded: {'identifier': 'serial_rw', 'rc': 0}
+[3.797632] (-) EventReactorShutdown: {}

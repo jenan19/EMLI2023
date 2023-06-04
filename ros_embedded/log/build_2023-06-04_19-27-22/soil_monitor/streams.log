@@ -1,0 +1,31 @@
+[2.569s] Invoking command in '/home/pi/ros_embedded/src/soil_monitor': PYTHONPATH=/home/pi/ros_embedded/build/soil_monitor/prefix_override:/home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/soil_monitor build --build-base /home/pi/ros_embedded/build/soil_monitor/build install --record /home/pi/ros_embedded/build/soil_monitor/install.log --single-version-externally-managed
+[3.594s] running egg_info
+[3.597s] writing ../../build/soil_monitor/soil_monitor.egg-info/PKG-INFO
+[3.598s] writing dependency_links to ../../build/soil_monitor/soil_monitor.egg-info/dependency_links.txt
+[3.599s] writing entry points to ../../build/soil_monitor/soil_monitor.egg-info/entry_points.txt
+[3.600s] writing requirements to ../../build/soil_monitor/soil_monitor.egg-info/requires.txt
+[3.600s] writing top-level names to ../../build/soil_monitor/soil_monitor.egg-info/top_level.txt
+[3.608s] reading manifest file '../../build/soil_monitor/soil_monitor.egg-info/SOURCES.txt'
+[3.612s] writing manifest file '../../build/soil_monitor/soil_monitor.egg-info/SOURCES.txt'
+[3.612s] running build
+[3.613s] running build_py
+[3.613s] copying soil_monitor/soil_monitor.py -> /home/pi/ros_embedded/build/soil_monitor/build/lib/soil_monitor
+[3.614s] copying soil_monitor/__init__.py -> /home/pi/ros_embedded/build/soil_monitor/build/lib/soil_monitor
+[3.615s] running install
+[3.615s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.616s]   warnings.warn(
+[3.617s] running install_lib
+[3.620s] copying /home/pi/ros_embedded/build/soil_monitor/build/lib/soil_monitor/soil_monitor.py -> /home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor
+[3.621s] copying /home/pi/ros_embedded/build/soil_monitor/build/lib/soil_monitor/__init__.py -> /home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor
+[3.623s] byte-compiling /home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor/soil_monitor.py to soil_monitor.cpython-310.pyc
+[3.624s] byte-compiling /home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor/__init__.py to __init__.cpython-310.pyc
+[3.626s] running install_data
+[3.628s] copying resource/soil_monitor -> /home/pi/ros_embedded/install/soil_monitor/share/ament_index/resource_index/packages
+[3.629s] copying package.xml -> /home/pi/ros_embedded/install/soil_monitor/share/soil_monitor
+[3.630s] running install_egg_info
+[3.637s] removing '/home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor-0.0.0-py3.10.egg-info' (and everything under it)
+[3.639s] Copying ../../build/soil_monitor/soil_monitor.egg-info to /home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages/soil_monitor-0.0.0-py3.10.egg-info
+[3.645s] running install_scripts
+[3.724s] Installing soil_monitor script to /home/pi/ros_embedded/install/soil_monitor/lib/soil_monitor
+[3.726s] writing list of installed files to '/home/pi/ros_embedded/build/soil_monitor/install.log'
+[3.842s] Invoked command in '/home/pi/ros_embedded/src/soil_monitor' returned '0': PYTHONPATH=/home/pi/ros_embedded/build/soil_monitor/prefix_override:/home/pi/ros_embedded/install/soil_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/soil_monitor build --build-base /home/pi/ros_embedded/build/soil_monitor/build install --record /home/pi/ros_embedded/build/soil_monitor/install.log --single-version-externally-managed

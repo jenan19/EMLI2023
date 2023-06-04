@@ -1,0 +1,39 @@
+[3.823s] Invoking command in '/home/pi/ros_embedded/src/embedded': PYTHONPATH=/home/pi/ros_embedded/build/embedded/prefix_override:/home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/embedded build --build-base /home/pi/ros_embedded/build/embedded/build install --record /home/pi/ros_embedded/build/embedded/install.log --single-version-externally-managed
+[4.944s] running egg_info
+[4.945s] creating ../../build/embedded/embedded.egg-info
+[4.946s] writing ../../build/embedded/embedded.egg-info/PKG-INFO
+[4.948s] writing dependency_links to ../../build/embedded/embedded.egg-info/dependency_links.txt
+[4.949s] writing entry points to ../../build/embedded/embedded.egg-info/entry_points.txt
+[4.950s] writing requirements to ../../build/embedded/embedded.egg-info/requires.txt
+[4.951s] writing top-level names to ../../build/embedded/embedded.egg-info/top_level.txt
+[4.952s] writing manifest file '../../build/embedded/embedded.egg-info/SOURCES.txt'
+[4.959s] reading manifest file '../../build/embedded/embedded.egg-info/SOURCES.txt'
+[4.961s] writing manifest file '../../build/embedded/embedded.egg-info/SOURCES.txt'
+[4.963s] running build
+[4.963s] running build_py
+[4.965s] creating /home/pi/ros_embedded/build/embedded/build
+[4.966s] creating /home/pi/ros_embedded/build/embedded/build/lib
+[4.967s] creating /home/pi/ros_embedded/build/embedded/build/lib/embedded
+[4.967s] copying embedded/__init__.py -> /home/pi/ros_embedded/build/embedded/build/lib/embedded
+[4.968s] copying embedded/publisher_member_function.py -> /home/pi/ros_embedded/build/embedded/build/lib/embedded
+[4.969s] running install
+[4.970s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.970s]   warnings.warn(
+[4.971s] running install_lib
+[4.972s] creating /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded
+[4.972s] copying /home/pi/ros_embedded/build/embedded/build/lib/embedded/__init__.py -> /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded
+[4.973s] copying /home/pi/ros_embedded/build/embedded/build/lib/embedded/publisher_member_function.py -> /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded
+[4.975s] byte-compiling /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded/__init__.py to __init__.cpython-310.pyc
+[4.976s] byte-compiling /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[4.978s] running install_data
+[4.981s] creating /home/pi/ros_embedded/install/embedded/share/ament_index
+[4.982s] creating /home/pi/ros_embedded/install/embedded/share/ament_index/resource_index
+[4.982s] creating /home/pi/ros_embedded/install/embedded/share/ament_index/resource_index/packages
+[4.983s] copying resource/embedded -> /home/pi/ros_embedded/install/embedded/share/ament_index/resource_index/packages
+[4.984s] copying package.xml -> /home/pi/ros_embedded/install/embedded/share/embedded
+[4.984s] running install_egg_info
+[4.991s] Copying ../../build/embedded/embedded.egg-info to /home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages/embedded-0.0.0-py3.10.egg-info
+[4.997s] running install_scripts
+[5.088s] Installing talker script to /home/pi/ros_embedded/install/embedded/lib/embedded
+[5.091s] writing list of installed files to '/home/pi/ros_embedded/build/embedded/install.log'
+[5.326s] Invoked command in '/home/pi/ros_embedded/src/embedded' returned '0': PYTHONPATH=/home/pi/ros_embedded/build/embedded/prefix_override:/home/pi/ros_embedded/install/embedded/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/embedded build --build-base /home/pi/ros_embedded/build/embedded/build install --record /home/pi/ros_embedded/build/embedded/install.log --single-version-externally-managed

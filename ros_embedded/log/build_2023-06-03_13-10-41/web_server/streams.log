@@ -1,0 +1,38 @@
+[4.057s] Invoking command in '/home/pi/ros_embedded/src/web_server': PYTHONPATH=/home/pi/ros_embedded/build/web_server/prefix_override:/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/web_server build --build-base /home/pi/ros_embedded/build/web_server/build install --record /home/pi/ros_embedded/build/web_server/install.log --single-version-externally-managed
+[5.196s] running egg_info
+[5.199s] creating ../../build/web_server/web_server.egg-info
+[5.199s] writing ../../build/web_server/web_server.egg-info/PKG-INFO
+[5.201s] writing dependency_links to ../../build/web_server/web_server.egg-info/dependency_links.txt
+[5.202s] writing entry points to ../../build/web_server/web_server.egg-info/entry_points.txt
+[5.203s] writing requirements to ../../build/web_server/web_server.egg-info/requires.txt
+[5.203s] writing top-level names to ../../build/web_server/web_server.egg-info/top_level.txt
+[5.204s] writing manifest file '../../build/web_server/web_server.egg-info/SOURCES.txt'
+[5.212s] reading manifest file '../../build/web_server/web_server.egg-info/SOURCES.txt'
+[5.214s] writing manifest file '../../build/web_server/web_server.egg-info/SOURCES.txt'
+[5.215s] running build
+[5.216s] running build_py
+[5.217s] creating /home/pi/ros_embedded/build/web_server/build
+[5.217s] creating /home/pi/ros_embedded/build/web_server/build/lib
+[5.218s] creating /home/pi/ros_embedded/build/web_server/build/lib/web_server
+[5.218s] copying web_server/__init__.py -> /home/pi/ros_embedded/build/web_server/build/lib/web_server
+[5.219s] copying web_server/web_server.py -> /home/pi/ros_embedded/build/web_server/build/lib/web_server
+[5.219s] running install
+[5.221s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.221s]   warnings.warn(
+[5.222s] running install_lib
+[5.225s] creating /home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server
+[5.226s] copying /home/pi/ros_embedded/build/web_server/build/lib/web_server/__init__.py -> /home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server
+[5.226s] copying /home/pi/ros_embedded/build/web_server/build/lib/web_server/web_server.py -> /home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server
+[5.229s] byte-compiling /home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server/__init__.py to __init__.cpython-310.pyc
+[5.231s] byte-compiling /home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server/web_server.py to web_server.cpython-310.pyc
+[5.233s]   File "/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server/web_server.py", line 13
+[5.233s]     print(resquests.get("http://%s/button/a/count" % server_ip)
+[5.234s]          ^
+[5.234s] SyntaxError: '(' was never closed
+[5.235s] 
+[5.238s] running install_data
+[5.240s] creating /home/pi/ros_embedded/install/web_server/share/ament_index
+[5.241s] creating /home/pi/ros_embedded/install/web_server/share/ament_index/resource_index
+[5.242s] creating /home/pi/ros_embedded/install/web_server/share/ament_index/resource_index/packages
+[5.243s] error: can't copy 'resource/web_server': doesn't exist or not a regular file
+[5.344s] Invoked command in '/home/pi/ros_embedded/src/web_server' returned '1': PYTHONPATH=/home/pi/ros_embedded/build/web_server/prefix_override:/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/web_server build --build-base /home/pi/ros_embedded/build/web_server/build install --record /home/pi/ros_embedded/build/web_server/install.log --single-version-externally-managed

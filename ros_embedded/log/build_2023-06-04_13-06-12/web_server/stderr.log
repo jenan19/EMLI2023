@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server/web_server.py", line 33
+    command = ['./src/web_server/web_server/set_led.sh %s %s %s' % (self.host, "green", i"on")]
+                                                                                         ^^^^
+SyntaxError: invalid syntax
+

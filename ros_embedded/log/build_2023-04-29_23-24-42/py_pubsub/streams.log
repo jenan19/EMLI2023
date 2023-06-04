@@ -1,0 +1,24 @@
+[5.237s] Invoking command in '/home/pi/ros_embedded/src/py_pubsub': PYTHONPATH=/home/pi/ros_embedded/build/py_pubsub/prefix_override:/home/pi/ros_embedded/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pi/ros_embedded/build/py_pubsub/build install --record /home/pi/ros_embedded/build/py_pubsub/install.log --single-version-externally-managed
+[6.533s] running egg_info
+[6.536s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[6.540s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[6.543s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[6.544s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[6.545s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[6.551s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.556s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.557s] running build
+[6.558s] running build_py
+[6.560s] running install
+[6.561s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.563s]   warnings.warn(
+[6.563s] running install_lib
+[6.570s] running install_data
+[6.572s] running install_egg_info
+[6.580s] removing '/home/pi/ros_embedded/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[6.595s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/pi/ros_embedded/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[6.605s] running install_scripts
+[6.742s] Installing listener script to /home/pi/ros_embedded/install/py_pubsub/lib/py_pubsub
+[6.746s] Installing talker script to /home/pi/ros_embedded/install/py_pubsub/lib/py_pubsub
+[6.750s] writing list of installed files to '/home/pi/ros_embedded/build/py_pubsub/install.log'
+[7.039s] Invoked command in '/home/pi/ros_embedded/src/py_pubsub' returned '0': PYTHONPATH=/home/pi/ros_embedded/build/py_pubsub/prefix_override:/home/pi/ros_embedded/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/pi/ros_embedded/build/py_pubsub/build install --record /home/pi/ros_embedded/build/py_pubsub/install.log --single-version-externally-managed
