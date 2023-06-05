@@ -1,3 +1,0 @@
-[console_scripts]
-database_updater = database.database_updater:main
-
