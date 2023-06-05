@@ -1,2 +1,1 @@
-# EMLI2023
-
+# Embedded Linux - Plant watering system
