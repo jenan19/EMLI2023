@@ -110,6 +110,7 @@ def main(args=None):
         if pump_alarm.data == '0'  and water_alarm.data == '0' and pump_monitor.pump == "on":
             serial_com.send(text = "on")
             pumps += 1
+            sleep(1)
         cycles.data = str(pumps)
         pump_cycles.publish(cycles)
 
