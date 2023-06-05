@@ -1,20 +1,37 @@
 @reboot ~/bin/boot.sh
 
-* */12 * * * /home/pi/shell_scripts/serial_write.sh /dev/ttyACM0 on
+0 */12 * * * /home/pi/shell_scripts/serial_write.sh /dev/ttyACM0 on
 
 * * * * * cd /home/pi/shell_scripts/cpu/ && sh log_cpu_temp.sh >> /home/pi/shell_scripts/cpu/cpu_temp.txt 2>&1
 
-* * * * * sh /home/pi/shell_scripts/cpu/plotplot.sh
+* * * * * /home/pi/shell_scripts/cpu/plotplot.sh
 
 * * * * * cd /home/pi/shell_scripts/memory/ && sh memory.sh >> /home/pi/shell_scripts/memory/memory_usage.txt 2>&1
 
-* * * * * sh /home/pi/shell_scripts/memory/plotplot.sh
+* * * * * /home/pi/shell_scripts/memory/plotplot.sh
 
 * * * * * cd /home/pi/shell_scripts/light/ && sh save_light.sh >> /home/pi/shell_scripts/light/light_data.txt 2>&1
 
-* * * * * sh /home/pi/shell_scripts/light/plotplot.sh
+* * * * * /home/pi/shell_scripts/light/plotplot.sh
 
 * * * * * cd /home/pi/shell_scripts/soil/ && sh save_soil.sh >> /home/pi/shell_scripts/soil/soil_data.txt 2>&1
 
-* * * * * sh /home/pi/shell_scripts/soil/plotplot.sh
+* * * * * /home/pi/shell_scripts/soil/plotplot.sh
+
+* * * * * cd /home/pi/shell_scripts/pump/ && sh save_pump.sh >> /home/pi/shell_scripts/pump/pump_data.txt 2>&1
+
+* * * * * /home/pi/shell_scripts/pump/plotplot.sh
+
+
+*/10 * * * * sh /home/pi/shell_scripts/soil/split_soil_data.sh
+
+*/10 * * * * sh /home/pi/shell_scripts/light/split_light_data.sh
+
+*/10 * * * * sh /home/pi/shell_scripts/alarms/split_pump_alarm_data.sh
+
+*/10 * * * * sh /home/pi/shell_scripts/alarms/split_water_alarm_data.sh
+
+*/10 * * * * sh /home/pi/shell_scripts/pump/split_pump_data.sh
+
+*/10 * * * * sh /home/pi/shell_scripts/cpu/log_cpu.sh
 

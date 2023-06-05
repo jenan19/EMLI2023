@@ -6,12 +6,12 @@ define NIC_NAME = "eth0"
 table inet filter {
 	chain input {
 		type filter hook input priority filter; 
-		tcp dport {ssh,http,67,53} accept; 
+		tcp dport {8801,http,67,53} accept; 
 		udp dport {53} accept; 
 		iifname $NIC_NAME udp dport domain accept
 		iifname $NIC_NAME tcp dport domain accept
 		tcp dport {139,445} drop; 
-	 	policy accept;
+	 	policy drop;
 	}
 
 	chain forward {

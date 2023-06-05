@@ -102,31 +102,18 @@
 83
 84
 83
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 84
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 84
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 84
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 84
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
-/home/pi/shell_scripts/light/get_light.sh: line 7: [: too many arguments
 83
 83
 84
@@ -139,3 +126,517 @@
 84
 83
 84
+84
+83
+84
+84
+84
+84
+84
+84
+84
+83
+0
+1
+1
+1
+1
+1
+0
+1
+66
+65
+66
+64
+64
+63
+64
+62
+63
+62
+64
+62
+61
+61
+59
+57
+58
+57
+58
+57
+56
+58
+58
+56
+58
+59
+60
+59
+59
+59
+58
+59
+60
+59
+60
+65
+65
+63
+73
+67
+67
+70
+69
+69
+70
+70
+70
+71
+73
+75
+76
+78
+77
+75
+75
+75
+72
+71
+71
+70
+71
+70
+69
+70
+70
+70
+70
+70
+68
+69
+69
+67
+69
+65
+65
+65
+60
+59
+65
+67
+66
+67
+67
+67
+66
+68
+65
+67
+51
+64
+53
+46
+49
+59
+49
+47
+44
+37
+40
+42
+40
+37
+37
+36
+37
+37
+45
+39
+38
+40
+39
+42
+49
+56
+49
+58
+58
+56
+30
+35
+50
+37
+48
+60
+64
+64
+66
+65
+65
+64
+65
+64
+64
+65
+64
+65
+64
+64
+64
+64
+59
+64
+63
+62
+60
+48
+47
+48
+60
+62
+62
+55
+52
+51
+52
+51
+51
+49
+50
+51
+50
+50
+49
+49
+48
+48
+48
+54
+58
+60
+60
+59
+59
+59
+60
+60
+60
+44
+44
+43
+43
+42
+40
+39
+39
+38
+38
+37
+37
+37
+37
+37
+39
+39
+45
+41
+41
+41
+43
+41
+55
+54
+51
+51
+51
+51
+47
+36
+43
+48
+41
+44
+48
+48
+46
+44
+39
+37
+39
+50
+49
+52
+52
+52
+46
+46
+49
+37
+37
+36
+35
+35
+34
+34
+33
+33
+32
+31
+30
+31
+30
+31
+31
+34
+35
+36
+34
+51
+47
+41
+40
+66
+61
+70
+60
+71
+63
+63
+62
+55
+54
+58
+56
+57
+67
+72
+48
+42
+40
+66
+37
+33
+35
+67
+66
+34
+34
+54
+37
+37
+66
+59
+42
+42
+66
+74
+73
+54
+43
+44
+70
+65
+52
+68
+Could not determine the type for the passed topic
+
+Could not determine the type for the passed topic
+
+Traceback (most recent call last):
+  File "/opt/ros/humble/bin/ros2", line 33, in <module>
+    sys.exit(load_entry_point('ros2cli==0.18.6', 'console_scripts', 'ros2')())
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/cli.py", line 89, in main
+    rc = extension.main(parser=parser, args=args)
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2topic/command/topic.py", line 41, in main
+    return extension.main(args=args)
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2topic/verb/echo.py", line 235, in main
+    self.subscribe_and_spin(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2topic/verb/echo.py", line 276, in subscribe_and_spin
+    rclpy.spin_until_future_complete(node, self.future)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 248, in spin_until_future_complete
+    executor.spin_until_future_complete(future, timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 288, in spin_until_future_complete
+Traceback (most recent call last):
+  File "/opt/ros/humble/bin/ros2", line 33, in <module>
+    sys.exit(load_entry_point('ros2cli==0.18.6', 'console_scripts', 'ros2')())
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/cli.py", line 89, in main
+    rc = extension.main(parser=parser, args=args)
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2topic/command/topic.py", line 41, in main
+    return extension.main(args=args)
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2topic/verb/echo.py", line 235, in main
+    self.subscribe_and_spin(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2topic/verb/echo.py", line 276, in subscribe_and_spin
+    rclpy.spin_until_future_complete(node, self.future)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 248, in spin_until_future_complete
+    executor.spin_until_future_complete(future, timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 288, in spin_until_future_complete
+    self.spin_once_until_future_complete(future, timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 716, in spin_once_until_future_complete
+    self.spin_once_until_future_complete(future, timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 716, in spin_once_until_future_complete
+    self.spin_once(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 705, in spin_once
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 691, in wait_for_ready_callbacks
+    self.spin_once(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 705, in spin_once
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 691, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 592, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 592, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+Traceback (most recent call last):
+  File "/opt/ros/humble/bin/ros2", line 33, in <module>
+    sys.exit(load_entry_point('ros2cli==0.18.6', 'console_scripts', 'ros2')())
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/cli.py", line 89, in main
+    rc = extension.main(parser=parser, args=args)
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2topic/command/topic.py", line 41, in main
+    return extension.main(args=args)
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2topic/verb/echo.py", line 235, in main
+    self.subscribe_and_spin(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2topic/verb/echo.py", line 276, in subscribe_and_spin
+    rclpy.spin_until_future_complete(node, self.future)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 248, in spin_until_future_complete
+    executor.spin_until_future_complete(future, timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 288, in spin_until_future_complete
+    self.spin_once_until_future_complete(future, timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 716, in spin_once_until_future_complete
+    self.spin_once(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 705, in spin_once
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 691, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 592, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+58
+44
+50
+65
+66
+67
+66
+66
+62
+57
+Could not determine the type for the passed topic
+
+60
+66
+67
+67
+67
+66
+66
+67
+66
+67
+65
+67
+67
+68
+68
+68
+68
+68
+68
+67
+68
+68
+68
+68
+68
+68
+67
+69
+69
+68
+60
+68
+68
+68
+68
+68
+69
+58
+52
+52
+55
+51
+53
+53
+52
+52
+51
+49
+51
+52
+52
+51
+52
+53
+54
+55
+56
+55
+58
+58
+59
+58
+58
+68
+53
+52
+51
+52
+53
+65
+57
+54
+54
+56
+73
+73
+73
+72
+74
+72
+72
+72
+72
+71
+72
+72
+72
+72
+72
+73
+72
+72
+73
+72
+74
+72
+73
+73
+73
+76
+73
+73
+73
+73
+73
+73
+74
+73
+75
+Could not determine the type for the passed topic
+
+74
+74
+74
