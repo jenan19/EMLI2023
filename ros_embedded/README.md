@@ -6,6 +6,10 @@ source install/setup.bash
 cd ros_embedded
 colcon build
 
+# To run
+cd ros_embedded
+ros2 launch launch/plant_monitor.py
+
 # Run a node from a package
 cd ros_embedded
 ros2 run <package> <node>
