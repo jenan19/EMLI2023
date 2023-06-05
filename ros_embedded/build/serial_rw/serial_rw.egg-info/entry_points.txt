@@ -1,3 +1,0 @@
-[console_scripts]
-rw = serial_rw.serial_rw:main
-
