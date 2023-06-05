@@ -1,7 +1,0 @@
-/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
-  warnings.warn(
-  File "/home/pi/ros_embedded/install/web_server/lib/python3.10/site-packages/web_server/web_server.py", line 57
-    if msg.data = "1":
-       ^^^^^^^^
-SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
-
