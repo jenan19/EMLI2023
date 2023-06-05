@@ -16,7 +16,7 @@ ros2 launch launch/plant_monitor.py
 # Run a node from a package
 cd ros_embedded
 
-ros2 run <package> <node>
+ros2 run \<package\> \<node\>
 
 
 
